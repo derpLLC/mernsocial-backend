@@ -26,8 +26,9 @@ app.get('/', (req,res) => {
     res.send('Hello to Memories API v1');
 })
 
-//https://www.mongodb.com/cloud/atlas
 const PORT = process.env.PORT || 5000
+
+console.log('Mongo : ' , process.env.CONNECTION_URL);
 
 mongoose.connect(process.env.CONNECTION_URL , {useNewUrlParser:true, useUnifiedTopology:true})
 .then(() => app.listen(PORT,()  => {   
