@@ -24,4 +24,26 @@ For the Backend, along with [Node JS](https://nodejs.org/en/) the following fram
 The Backend has been deployed with the help of [Heroku](https://www.heroku.com). 
 
 
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/derpLLC/mernsocial-backend
+```
+
+Go to the project directory
+
+```bash
+  cd mernsocial-backend
+```
+
+Run the app
+
+```bash
+  npm install
+  npm run start
+
+```
+
 
