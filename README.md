@@ -12,4 +12,16 @@
 
 > _Note_: Mern-Social is still under development and some features may not be completely available yet. Feedbacks and Pull Requests are certainly welcome!.
 
+## Plugins
+
+**Table of contents:**
+
+For the Backend, along with [Node JS](https://nodejs.org/en/) the following framework along with database has been used:
+
+- [ExpressJS](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/)
+
+The Backend has been deployed with the help of [Heroku](https://www.heroku.com). 
+
+
 
